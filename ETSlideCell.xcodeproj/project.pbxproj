@@ -43,6 +43,7 @@
 		E201B4F91DAB949D008BF269 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E201B4DD1DAB949D008BF269 /* UIView+Category.m */; };
 		E201B5061DAB94C5008BF269 /* ETSlideButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E201B5031DAB94C5008BF269 /* ETSlideButtonItem.m */; };
 		E201B5071DAB94C5008BF269 /* ETSlideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E201B5051DAB94C5008BF269 /* ETSlideCell.m */; };
+		E2E0CDE81E03CCC200CF4C29 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E0CDE71E03CCC200CF4C29 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +120,7 @@
 		E201B5041DAB94C5008BF269 /* ETSlideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETSlideCell.h; sourceTree = "<group>"; };
 		E201B5051DAB94C5008BF269 /* ETSlideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETSlideCell.m; sourceTree = "<group>"; };
 		E201B5081DAB9530008BF269 /* ETSlideCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ETSlideCell-Prefix.pch"; sourceTree = "<group>"; };
+		E2E0CDE71E03CCC200CF4C29 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E0CDE81E03CCC200CF4C29 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +140,7 @@
 			children = (
 				E201B48B1DAB93DB008BF269 /* ETSlideCell */,
 				E201B48A1DAB93DB008BF269 /* Products */,
+				E2E0CDE61E03CCC200CF4C29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +253,14 @@
 				E201B5051DAB94C5008BF269 /* ETSlideCell.m */,
 			);
 			path = ETSlideCell;
+			sourceTree = "<group>";
+		};
+		E2E0CDE61E03CCC200CF4C29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2E0CDE71E03CCC200CF4C29 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -506,6 +518,7 @@
 				E201B4A21DAB93DB008BF269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
